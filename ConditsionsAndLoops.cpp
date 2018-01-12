@@ -9,7 +9,7 @@ int main() {
 	string input;
 	cin >> input;
 
-	cout << " ' " << input << " ' " << endl;
+	//cout << " ' " << input << " ' " << endl;
 
 	if (input == pw) {
 		cout << "Enter" << endl;
