@@ -3,7 +3,7 @@
 
 #include <iostream>
 
-using namespace std
+using namespace std;
 
 List::List() { //constructor function
 	head = NULL;
@@ -45,7 +45,7 @@ void List::DeleteNode(int delData){
 		curr = curr->next;
 		temp->next = curr;
 		delete delPtr;
-		cout << deData << "has been deleted" << endl;
+		cout << delData << "has been deleted" << endl;
 	}
 }
 

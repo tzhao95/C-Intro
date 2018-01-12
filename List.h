@@ -1,4 +1,4 @@
-#ifndif LIST_H
+#ifndef LIST_H
 #define LIST_H
 
 class List {
@@ -18,11 +18,13 @@ private:
 	}* nodePtr;
 
 	nodePtr head;
-	nodePtr current;
+	nodePtr curr;
 	nodePtr temp;
 public:
 	List();//constructor function. used to define the variables of the class
 	void AddNode(int addData);
 	void DeleteNode(int delData);
 	void PrintList();
-}
+};
+
+#endif
